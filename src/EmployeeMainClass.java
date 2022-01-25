@@ -58,6 +58,7 @@ public class EmployeeMainClass {
 		String updateLastName = objEmployee.getLastName();
 		System.out.println("First Name is updated to: " + updateLastName);
 
+		System.out.println("UPDATED Full name is: " + updateFirstName + updateLastName); // UPDATED FULL NAME OF AN EMPLOYEE
 	}
 
 }
