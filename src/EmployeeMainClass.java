@@ -49,16 +49,17 @@ public class EmployeeMainClass {
 		// UPDATING FIRST NAME
 		System.out.println("Update First Name");
 		objEmployee.updateFirstName(sc.next());
-		String updateFirstName = objEmployee.getFirstName();
-		System.out.println("First Name is updated to: " + updateFirstName);
+		String updatedFirstName = objEmployee.getFirstName();
+		System.out.println("First Name is updated to: " + updatedFirstName);
 
 		// UPDATING LAST NAME
 		System.out.println("Update last Name");
 		objEmployee.updateLastName(sc.next());
-		String updateLastName = objEmployee.getLastName();
-		System.out.println("First Name is updated to: " + updateLastName);
+		String updatedLastName = objEmployee.getLastName();
+		System.out.println("First Name is updated to: " + updatedLastName);
 
-		System.out.println("UPDATED Full name is: " + updateFirstName + updateLastName); // UPDATED FULL NAME OF AN EMPLOYEE
+		System.out.println("UPDATED Full name is: " + updatedFirstName + updatedLastName); // UPDATED FULL NAME OF AN
+																							// EMPLOYEE
 	}
 
 }
